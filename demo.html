@@ -36,11 +36,11 @@
 #tlc-dispatch-preview .machine[data-state="품질 보류"],#tlc-dispatch-preview button[data-machine-state="품질 보류"]{--state-color:#a91b70;--state-tint:#fff0f8}
 #tlc-dispatch-preview .machine[data-state="비가동"],#tlc-dispatch-preview button[data-machine-state="비가동"]{--state-color:#4b5563;--state-tint:#f1f3f5}
 #tlc-dispatch-preview .machine[data-state="중단"],#tlc-dispatch-preview button[data-machine-state="중단"]{--state-color:#ae4012;--state-tint:#fff2eb}
-#tlc-dispatch-preview .machine[data-state]{border:2px solid var(--state-color);border-top-width:6px;background:var(--state-tint)}
+#tlc-dispatch-preview .machine[data-state]{border:1px solid var(--edge);background:var(--paper)}
 #tlc-dispatch-preview .machine[data-state] .machinehead .tag{background:var(--state-color);color:#fff;font-weight:800;padding:4px 8px;border-radius:4px;letter-spacing:.2px}
-#tlc-dispatch-preview .machine[data-state] .bar i{background:var(--state-color)}
-#tlc-dispatch-preview .machinefilters button[data-machine-state]:not([data-machine-state="전체"]){border:2px solid var(--state-color);background:var(--state-tint);color:var(--state-color);font-weight:700}
-#tlc-dispatch-preview .machinefilters button[data-machine-state].on:not([data-machine-state="전체"]){background:var(--state-color);color:#fff;box-shadow:0 0 0 2px #fff,0 0 0 4px var(--state-color)}
+#tlc-dispatch-preview .machine[data-state] .bar i{background:#81949d}
+#tlc-dispatch-preview .machinefilters button[data-machine-state]:not([data-machine-state="전체"]){border:1px solid var(--edge);background:var(--paper);color:var(--sub);font-weight:500}
+#tlc-dispatch-preview .machinefilters button[data-machine-state].on:not([data-machine-state="전체"]){background:#243e4e;color:#fff;border-color:#243e4e;box-shadow:none}
  </style>
  <header class="mast"><div class="logo"><b>TLC</b> 통합 업무<div><small style="font-size:11px;font-weight:400;display:block">MES + ERP + AI</small></div></div><div class="actions"><button data-go="mobile">모바일 작업자 보기</button><span class="tag gray">전체 기능 검토용</span></div></header>
  <div class="sample">화면 샘플 · 가상 데이터 · 입력은 이 화면에서만 반영되며 새로 열면 초기화됩니다. 실제 서버·AI·파일 저장은 연결되지 않았습니다.</div>
